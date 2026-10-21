@@ -1,0 +1,5 @@
+optiland>=0.6.2
+numpy
+scipy
+matplotlib
+pandas
