@@ -20,11 +20,10 @@ Designs 01 and 02 solve the same challenge: minimize the polychromatic RMS spot 
   <img src="designs/03_telecentric_0.5x/images/layout.png" width="32%">
 </p>
 
-The telecentric objective also includes an MTF check against real machine-vision sensors and a simulated camera image:
+The telecentric objective also includes an MTF check against real machine-vision sensors:
 
 <p align="center">
   <img src="designs/03_telecentric_0.5x/images/mtf.png" width="49%">
-  <img src="designs/03_telecentric_0.5x/images/sim_cells.png" width="49%">
 </p>
 
 ## How to use
@@ -35,11 +34,6 @@ pip install -r requirements.txt
 
 - **Notebooks:** open them in Jupyter or upload them to Google Colab and run all cells.
 - **Optiland GUI:** File → Open → select a design's `.json`.
-- **Telecentric scripts** (analysis, aberration summary, image simulation), run from the design folder:
-  ```bash
-  cd designs/03_telecentric_0.5x
-  python scripts/Telecentric_summary.py telecentric_best.json
-  ```
 
 Tested with Optiland 0.6.2.
 
